@@ -13,9 +13,10 @@ constant: CONNECTION_NAME {
 }
 
 constant: DATASET {
-  value: "SAP_REPORTING"
+  value: "EON_CORTEX_REPORTING"
   export: override_required
 }
+
 
 # constant: LANGUAGE {
 #   value: "{{ _user_attributes['locale'] }}"
